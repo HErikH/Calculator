@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="calc">
+        <input id="answer" type="text">
+        <div>
+        <input id="AC" type="button" onclick="c()" value="AC">
+        <!-- <input id="CE" type="button" onclick="f()" value="CE"> -->
+        <input id="percentage" type="button" onclick="f(' % ')" value="%">
+        <input id="divide" type="button" onclick="f(' / ')" value="/">
+        </div>
+        <div>
+        <input id="seven" type="button" onclick="f(' 7 ')" value="7">
+        <input id="eight" type="button" onclick="f(' 8 ')" value="8">
+        <input id="nine" type="button" onclick="f(' 9 ')" value="9">
+        <input id="multiply" type="button" onclick="f(' * ')" value="*">
+        </div>
+        <div>
+        <input id="four" type="button" onclick="f(' 4 ')" value="4">
+        <input id="five" type="button" onclick="f(' 5 ')" value="5">
+        <input id="six" type="button" onclick="f(' 6 ')" value="6">
+        <input id="minus" type="button" onclick="f(' - ')" value="-">
+        </div>
+        <div>
+        <input id="one" type="button" onclick="f(' 1 ')" value="1">
+        <input id="two" type="button" onclick="f(' 2 ')" value="2">
+        <input id="three" type="button" onclick="f(' 3 ')" value="3">
+        <input id="plus" type="button" onclick="f(' + ')" value="+">
+        </div>  
+        <div>
+        <input id="parenthesesLeft" type="button" onclick="f(' ( ')" value="(">
+        <input id="parenthesesRight" type="button" onclick="f(' ) ')" value=")">
+        <input id="zero" type="button" onclick="f(' 0 ')" value="0">
+        <input id="equal" type="button" onclick="h()" value="=">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #091921;
+}
+#calc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    gap: 5px;
+    margin: 5% auto auto auto;
+    border:solid 2px #111;
+}
+#answer{
+    width: 100%;
+    line-height: 3;
+    background-color: white;
+    text-align: right;
+    padding-right: 5%;
+    font-size: calc(10px + 1vw);
+    border: none;
+    outline: none;
+}
+#percentage, #divide, #multiply, #minus, #plus, #equal, #parenthesesLeft, #parenthesesRight, #seven, #eight, #nine, #four, #five, #five, #six, #one, #two, #three, #zero{
+    width: 5.5vw;
+    background-color: #111;
+    font-size: clamp(4px, 1.7vw, 3vw);
+    color: white;
+    line-height: 3;
+}
+#AC{
+    width: 11.3vw;
+    background-color: #111;
+    font-size: clamp(4px, 1.7vw, 3vw);
+    color: white;
+    line-height: 3;
+}
